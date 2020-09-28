@@ -6,6 +6,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/uno"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Wena los kbros"
@@ -15,5 +16,12 @@
         android:textStyle="bold"
         android:textColor="#CD7D7D"
         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hi, ¿Como estas?"
+        android:gravity="center"
+        android:layout_below="@id/uno"
+       /> 
 
 </RelativeLayout>
